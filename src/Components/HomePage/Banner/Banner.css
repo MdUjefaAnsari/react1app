@@ -1,0 +1,15 @@
+.banner{
+    background: #fed9;
+}
+.logoRotate{
+  
+    animation: rotate 12s infinite;
+}
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
